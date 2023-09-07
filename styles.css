@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,500&display=swap');
+*{
+    margin : 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(182, 179, 179);
+   
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: small;
+    height: 100vh;
+    transition: 0.3s ease-in;
+    
+
+}
+.sidebar nav{
+     padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(153, 187, 198); */
+    height: 50vh;
+    width: 80vw; 
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devpic img{
+    height: 50vh;
+}
+.hello{
+    font-size: 30px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 40px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 22px;
+    color: snow;
+    background-color: steelblue;
+    margin: 0 6px;
+    cursor: pointer;
+
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 8px;
+    margin: 8px 0;
+
+}
+.buttons button:hover{
+    background-color: snow;
+    color: steelblue;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    
+}
+.contactform h1{
+    font-family: 'Libre Franklin',sans-serif ;
+    padding: 12px 0;
+
+}
+.contactform form div{
+    padding: 6px 0px;
+    display: flex;
+     flex-direction: column;
+}
+
+#emailhelp{
+    color: teal;
+    font-size: 8px;
+    margin: 0 5px;
+}
+
+#clientmail{
+    width: 20vw;
+}
+.contactform form div input{
+    width: 20vw;
+    border-radius: 5px;
+    font-size:10px;
+    margin: 3px 0 0 0;
+    padding: 3px;
+
+}
+
+.contactform form .form-check {
+    flex-direction: row;
+}
+.contactform form .form-check-input{
+    width: 12px;
+    margin: 1px 2px 0 0;
+}
+.aboutme{
+    flex-direction: column;
+    font-size: 20px;
+    display: flex;
+    padding: 40px 0;
+    margin: 40px 20px;
+}
+.btn-sm1{
+    width: 120px;
+    padding: 10px;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+}
+.btn-sm1:hover{
+    color: steelblue;
+    background-color: snow;
+}
+.myskills{
+    padding: 0 40px;
+    margin: 12px 0;
+}
+.myskills h2{
+    font-size: 40px;
+    margin: 0 0px 0px -18px;
+
+}
+.skill{
+    width: 290px;
+    background-color: red;
+    height: 11px;
+    border: 2px solid black;
+}
+.skillset{
+    display: flex;
+    align-items: center;
+}
+
+.hundred{
+    width: 220px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 110px;
+    background-color: yellowgreen;
+}
+.twentyfive{
+    width: 55px;
+    background-color: aqua;
+}
+.ten{
+    width: 22px;
+    background-color: brown;
+
+}
+.four{
+    width: 8px;
+    background-color:black ;
+}
+
+@media (max-width: 1100px) 
+{
+    
+
+
+.sidebar{
+    transform: translate(-304px, 0px);
+    position: absolute;
+}
+}
+.hamburger{
+    
+    left: 5px;
+    cursor: pointer;
+    position: absolute;
+
+}
+.cross{
+    margin-left: 105px;
+}
+.infocontainer2{
+    margin: 20px 16px;
+}
+.webdeveloper{
+    padding: 79px 0;
+    font-size: 22px;
+}
+
+.webdevelper p{
+    font-size: 15px;
+    padding-left: 6px;
+}
+.webdeveloper h1{
+    padding: 2px 0;
+    margin-left: -4px;
+}
+.softwaredevelopment h1{
+    font-size: 40px;
+    padding: 2px 0;
+}
+.softwaredevelopment p{
+    font-size: 22px;
+}
